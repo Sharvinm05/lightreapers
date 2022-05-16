@@ -28,11 +28,6 @@
 	src: url(../../BLADRMF_.TTF);
  }
 
- @font-face {
-	font-family: Cursive;
-	src: url(../../comici.ttf);
- }
-
 html{ font-size: 100%; height: 100%; width: 100%; overflow-x: hidden; margin: 0px;  padding: 0px; touch-action: manipulation; }
 
 
@@ -178,7 +173,7 @@ b.light-color{ color: #444; }
 .main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
 	opacity: .4; background: #000; }
 
-.main-area .desc{ font-family: Cursive;  margin: 20px auto; max-width: 500px; }
+.main-area .desc{ font-family: 'comic-sans-ms-italic', sans-serif;  margin: 20px auto; max-width: 500px; }
 	
 .main-area .notify-btn{ padding: 13px 35px; border-radius: 50px; border: 2px solid #F84982;
 	color: #fff; background: rgba(255, 0, 0, 0.692); }
