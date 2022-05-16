@@ -189,7 +189,7 @@ b.light-color{ color: #444; }
 .main-area .social-btn{ position: absolute; bottom: 40px; width: 100%; left: 50%; transform: translateX(-50%); }
 
 .main-area .social-btn > li > a{ margin: 0 10px; padding-bottom: 7px; position: relative; overflow: hidden;}
-.naming{ color: white; font-size: 15px; }
+.naming{  display:block; color: white; font-size: 15px; }
 .main-area .social-btn > li > a:after{ content:''; position: absolute; bottom: 0; left: 0; right: 0; 
 	transition: all .2s; height: 2.5px; background: rgba(3, 202, 36, 0.976); }
 
