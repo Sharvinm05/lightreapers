@@ -11,10 +11,17 @@
 @media only screen and (max-width: 992px) {
 	
 	.loader{
-		display: none;
+		display: inline-block;
+			width: 30px;
+			height: 30px;
+			bottom: 6%;
+			position: relative;
+			border: 4px solid black;
+			animation: loader 2s infinite ease;
+			margin-right: 15px;
 	}
 	.load-img img {
-		width: 25%;
+		display: none;
 	}
 
 	desc{
@@ -129,14 +136,7 @@
 		  }
 
 		  .load-img {
-			width: 100%;
-			height: 950px;
-			bottom: 4%;
-			position: absolute;
-			display:flex;
-			justify-content: center;
-			align-items: center;
-			z-index: 99999;
+			display: none;
 			  
 		  }
 		  .load-img img {
@@ -158,7 +158,14 @@
 		  }
 
 		  .loader{
-			  display: none;
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			bottom: 6%;
+			position: relative;
+			border: 4px solid black;
+			animation: loader 2s infinite ease;
+			margin-right: 15px;
 		  }
 		  desc{
 			font-size: 14px;
@@ -260,19 +267,23 @@
 		  }
 
 		.load-img {
-			width: 70%;
-			height: 850px;
-			bottom: 10%;
-			position: absolute;
-			display:flex;
-			justify-content: center;
-			align-items: center;
-			z-index: 99999;
+			display: none;
 			  
 		  }
-		.loader{
+		/* .loader{
 			display: none;
-		}
+		} */
+		.loader {
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			bottom: 6%;
+			position: relative;
+			border: 4px solid black;
+			animation: loader 2s infinite ease;
+			margin-right: 15px;
+			
+		  }
 
 		.load-text{
 			height: 50%;		
@@ -301,18 +312,18 @@
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 359px) {
 	.load-img {
-		width: 70%;
-		height: 850px;
-		bottom: 2%;
-		position: absolute;
-		display:flex;
-		justify-content: center;
-		align-items: center;
-		z-index: 99999;
+		display: none;
 		  
 	  }
 	  .loader{
-		display: none;
+		display: inline-block;
+			width: 30px;
+			height: 30px;
+			bottom: 6%;
+			position: relative;
+			border: 4px solid black;
+			animation: loader 2s infinite ease;
+			margin-right: 15px;
 	}
 	.desc{
 		font-size: 11px;
@@ -338,23 +349,20 @@
 @media only screen and (max-width: 290px) {
 	
 	.loader{
-		display: none;
+		display: inline-block;
+			width: 30px;
+			height: 30px;
+			bottom: 6%;
+			position: relative;
+			border: 4px solid black;
+			animation: loader 2s infinite ease;
+			margin-right: 15px;
 	}
 
 	.load-img {
-		width: 70%;
-		height: 850px;
-		bottom: 2%;
-		position: absolute;
-		display:flex;
-		justify-content: center;
-		align-items: center;
-		z-index: 99999;
+		display: none;
 		  
 	  }
-	  .loader{
-		display: none;
-	}
 	.load-text{
 		height: 50%;		
 		  }
