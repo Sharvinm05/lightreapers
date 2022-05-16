@@ -161,7 +161,7 @@
 			  display: none;
 		  }
 		  desc{
-			font-size: 15px;
+			font-size: 14px;
 		}
 	
 		.glow{
@@ -279,7 +279,7 @@
 			  }
 		
 			  .desc{
-				font-size: 13px;
+				font-size: 11px;
 			}
 		
 			.glow{
@@ -315,7 +315,7 @@
 		display: none;
 	}
 	.desc{
-		font-size: 12px;
+		font-size: 11px;
 	}
 
 	.glow{
@@ -360,7 +360,7 @@
 		  }
 
 	.desc{
-		font-size: 12px;
+		font-size: 11px;
 	}
 
 	.glow{
