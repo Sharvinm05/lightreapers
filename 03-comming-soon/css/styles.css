@@ -264,6 +264,11 @@ body {
 
   .load-img img {
 	  width: 15%;
+	  
+  }
+
+  img{
+	pointer-events: none;
   }
 
 .loader-inner {
