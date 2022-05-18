@@ -1,8 +1,63 @@
+/* @media only screen and (max-width: 1050px) and (max-height:710px) {
+	.load-img img {
+		display: none;
+	}
 
+
+  .main-area .social-btn .wrd{
+		position: relative;
+		
+	}
+	.main-area .desc{
+		font-size: 15px;
+	}
+
+	.glow{
+		font-family:bladerunner;
+		font-size: 45px;
+		padding-bottom: 5px;
+	}
+	.info-text p{
+		font-size: 13px;
+	}
+	ion-icon {
+		font-size: 24px;
+	  }
+	.naming{ color: white; font-size: 11px; }
+	.main-area .social-btn{ position: relative; top:50%; }
+
+} */
 
 /* Screens Resolution : 992px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1050px) and (max-height:715px) {
+	.load-img img {
+		display: none;
+	}
+	/* .main-area .social-btn{ position: relative; top: 1%; width: 100%; left: 50%; transform: translateX(-50%); } */
+	/* .main-area{ position: relative; height: 105vh; z-index: 2; padding: 0 20px; background-size: cover; color: #fff; } */
+
+	.wrd{
+		position: relative;
+		margin-top: 8%;	
+	}
+	.main-area .desc{
+		font-size: 15px;
+	}
+
+	.glow{
+		font-family:bladerunner;
+		font-size: 45px;
+		padding-bottom: 5px;
+	}
+	.info-text p{
+		font-size: 13px;
+	}
+	ion-icon {
+		font-size: 24px;
+	  }
+	  .naming{ color: white; font-size: 11px; }
+	  .main-area .social-btn{ position: relative; top:22%; }
 
 }
 
@@ -24,7 +79,7 @@
 		display: none;
 	}
 
-	desc{
+	.main-area .desc{
 		font-size: 15px;
 	}
 
@@ -33,6 +88,9 @@
 		font-size: 65px;
 		padding-bottom: 5px;
 	}
+	.info-text{
+		margin-top: 1rem;
+	}
 	.info-text p{
 		font-size: 14px;
 	}
@@ -40,6 +98,8 @@
 		font-size: 24px;
 	  }
 	  .naming{ color: white; font-size: 11px; }
+
+	  .main-area .social-btn{ position: relative; top:32%; }
 
 }
 
@@ -83,9 +143,9 @@
 				font-size: 12.2px;
 				font-weight: lighter;
 			}
-			.main-area .social-btn{ position: absolute; bottom: 10%; width: 100%; left: 50%; transform: translateX(-50%); }
+			/* .main-area .social-btn{ position: absolute; bottom: 10%; width: 100%; left: 50%; transform: translateX(-50%); }
 
-			.main-area{ position: relative; height: 105vh; z-index: 2; padding: 0 20px; background-size: cover; color: #fff; }
+			.main-area{ position: relative; height: 105vh; z-index: 2; padding: 0 20px; background-size: cover; color: #fff; } */
 
 			.full-screen{
 				position: relative;
@@ -116,7 +176,7 @@
 
 		
 
-		  .main-area{ position: relative; height: 105vh; z-index: 2; padding: 0 20px; background-size: cover; color: #fff; bottom: 0%; }
+		  /* .main-area{ position: relative; height: 105vh; z-index: 2; padding: 0 20px; background-size: cover; color: #fff; bottom: 0%; } */
 		  
 		  .wrd{
 			  position: relative;
@@ -167,14 +227,17 @@
 			animation: loader 2s infinite ease;
 			margin-right: 15px;
 		  }
-		  desc{
-			font-size: 14px;
+		 .main-area .desc{
+			font-size: 15px;
 		}
 	
 		.glow{
 			font-family:bladerunner;
 			font-size: 55px;
 			padding-bottom: 5px;
+		}
+		.info-text{
+			margin-top: 8rem;
 		}
 		.info-text p{
 			font-size: 14px;
@@ -184,7 +247,7 @@
 		  }
 		  .naming{ color: white; font-size: 11px; }
 	
-	
+		  .main-area .social-btn{ position: relative; top: 40%; }
 }
 
 /* Screens Resolution : 479px
@@ -226,9 +289,9 @@
 				font-size: 12.2px;
 				font-weight: lighter;
 			}
-			.main-area .social-btn{ position: absolute; bottom: 10%; width: 100%; left: 50%; transform: translateX(-50%); }
+			/* .main-area .social-btn{ position: absolute; bottom: 10%; width: 100%; left: 50%; transform: translateX(-50%); } */
 
-			.main-area{ position: relative; height: 105vh; z-index: 2; padding: 0 20px; background-size: cover; color: #fff; }
+			/* .main-area{ position: relative; height: 105vh; z-index: 2; padding: 0 20px; background-size: cover; color: #fff; } */
 
 			.full-screen{
 				position: relative;
@@ -289,7 +352,7 @@
 			height: 50%;		
 			  }
 		
-			  .desc{
+			  .main-area .desc{
 				font-size: 11px;
 			}
 		
@@ -298,6 +361,9 @@
 				font-size: 55px;
 				padding-bottom: 5px;
 			}
+			.info-text{
+				margin-top: 26%;
+			}
 			.info-text p{
 				font-size: 14px;
 			}
@@ -305,6 +371,7 @@
 				font-size: 24px;
 			  }
 			  .naming{ color: white; font-size: 11px; }
+			  .main-area .social-btn{ position: relative; top: 42%; }
 	
 }
 
@@ -325,13 +392,16 @@
 			animation: loader 2s infinite ease;
 			margin-right: 15px;
 	}
-	.desc{
+	.main-area .desc{
 		font-size: 11px;
 	}
 
 	.glow{
 		font-family:bladerunner;
 		font-size: 35px;
+	}
+	.info-text{
+		margin-top: 35%;
 	}
 	.info-text p{
 		font-size: 12px;
@@ -340,7 +410,7 @@
 		font-size: 24px;
 	  }
 	  .naming{ color: white; font-size: 11px; }
-	
+	  .main-area .social-btn{ position: relative; top: 45%; }
 	
 }
 
@@ -367,13 +437,16 @@
 		height: 50%;		
 		  }
 
-	.desc{
-		font-size: 11px;
+	.main-area .desc{
+		font-size: 9.5px;
 	}
 
 	.glow{
 		font-family:bladerunner;
 		font-size: 35px;
+	}
+	.info-text{
+		margin-top: 30%;
 	}
 	.info-text p{
 		font-size: 10px;
@@ -381,6 +454,8 @@
 	ion-icon {
 		font-size: 24px;
 	  }
-	  .naming{ color: white; font-size: 10px; }
+	.naming{ color: white; font-size: 10px; }
+
+	.main-area .social-btn{ position: relative; top: 45%; }
 
 }
