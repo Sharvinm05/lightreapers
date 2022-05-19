@@ -186,7 +186,7 @@ b.light-color{ color: #444; }
 
 .main-area .notify-btn:hover{ background: none; }
 
-.main-area .social-btn{ position: relative; top: 13rem; width: 100%; height: 100%; left: 50%; transform: translateX(-50%); }
+.main-area .social-btn{ position: relative; top: 12rem; width: 100%; height: 100%; left: 50%; transform: translateX(-50%); }
 
 .main-area .social-btn > li > a{ margin: 0 10px; padding-bottom: 0px; position: relative; overflow: hidden;}
 .naming{  display:block; color: white; font-size: 15px; }
