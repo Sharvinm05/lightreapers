@@ -57,7 +57,11 @@
 		font-size: 24px;
 	  }
 	  .naming{ color: white; font-size: 11px; }
-	  .main-area .social-btn{ position: relative; top:22%; }
+	  .main-area .social-btn{ position: relative; top:16%; }
+	  .image-logo{
+		position: relative;
+		padding-top:5%;
+	}
 
 }
 
@@ -99,7 +103,11 @@
 	  }
 	  .naming{ color: white; font-size: 11px; }
 
-	  .main-area .social-btn{ position: relative; top:32%; }
+	  .main-area .social-btn{ position: relative; top:42%; }
+	  .image-logo{
+		position: relative;
+		padding-top:20%;
+	}
 
 }
 
@@ -247,7 +255,12 @@
 		  }
 		  .naming{ color: white; font-size: 11px; }
 	
-		  .main-area .social-btn{ position: relative; top: 40%; }
+		  .main-area .social-btn{ position: relative; top: 20%; }
+
+		  .image-logo{
+			position: relative;
+			padding-top:40%;
+		}
 }
 
 /* Screens Resolution : 479px
@@ -257,69 +270,6 @@
 	/* ---------------------------------
 	1. PRIMARY STYLES
 	--------------------------------- */
-	
-	p{ line-height: 1.4; }
-
-	h1{ font-size: 3.8em; line-height: 1; margin-bottom: 35px; }
-	h2{ font-size: 2.2em; line-height: 1.1; }
-	h3{ font-size: 1.8em; }
-	img{ width: 70%; 
-		margin-top: -410px;
-		bottom: 50%;
-		
-		}
-		.email-input{
-			width:80%;
-			margin-left: 15px;
-			margin-bottom: 25px;
-			margin-top: 20px;
-		}
-		.load-img img {
-			width: 55%;
-		}
-		.main-area .notify-btn{ 
-			padding: 20px 55px;
-			border-radius: 50px;
-			border: 2px solid red;
-			font-size: 15px;
-			color: #fff;
-			background: rgba(255, 0, 0, 0.692); }
-
-			.info-text p{
-				font-size: 12.2px;
-				font-weight: lighter;
-			}
-			/* .main-area .social-btn{ position: absolute; bottom: 10%; width: 100%; left: 50%; transform: translateX(-50%); } */
-
-			/* .main-area{ position: relative; height: 105vh; z-index: 2; padding: 0 20px; background-size: cover; color: #fff; } */
-
-			.full-screen{
-				position: relative;
-				height: 100vh;
-				width: 100vw;
-				overflow: hidden;
-				
-			}
-
-	/*.main-area center-text	video{
-			position: absolute;
-			width: 100%;
-			height: 100vh;
-			visibility: hidden;
-		}*/
-
-		img{ width: 100px; 
-			height: 100px;
-			border-radius: 15px;
-			position: relative;
-			/* margin-top: -905px;
-			margin-bottom: -15px; */
-			top: 20%;
-			border: 1px solid  rgba(3, 202, 36, 0.976);
-			animation: glow2 1s ease-in-out infinite alternate;
-		
-		}
-
 		
 
 		/* .main-area{ position: relative; height: 100vh; z-index: 2; padding: 0 20px; background-size: cover; color: #fff; bottom: 0%; } */
@@ -361,9 +311,10 @@
 				font-size: 55px;
 				padding-bottom: 5px;
 			}
-			/* .info-text{
-				margin-top: 3.5rem;
-			} */
+				.info-text{
+					padding-top: 1rem;
+
+				}
 			.info-text p{
 				font-size: 12px;
 			}
@@ -371,13 +322,84 @@
 				font-size: 24px;
 			  }
 			  .naming{ color: white; font-size: 11px; }
-			  .main-area .social-btn{ position: relative; top: 40%; }
+			  .main-area .social-btn{ position: relative; top: 35%; }
+
+			  .image-logo{
+				position: relative;
+				padding-top:40%;
+			}
+	
+}
+
+@media only screen and (max-width: 390px) {
+
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+		
+
+		/* .main-area{ position: relative; height: 100vh; z-index: 2; padding: 0 20px; background-size: cover; color: #fff; bottom: 0%; } */
+		  
+		  .wrd{
+			  position: relative;
+			  top: 10%;
+		  }
+
+		.load-img {
+			display: none;
+			  
+		  }
+		/* .loader{
+			display: none;
+		} */
+		.loader {
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			bottom: 6%;
+			position: relative;
+			border: 4px solid black;
+			animation: loader 2s infinite ease;
+			margin-right: 15px;
+			
+		  }
+
+		.load-text{
+			height: 50%;		
+			  }
+		
+			  .main-area .desc{
+				font-size: 11px;
+			}
+		
+			.glow{
+				font-family:bladerunner;
+				font-size: 55px;
+				padding-bottom: 5px;
+			}
+				/* .info-text{
+					padding-top: 2rem;
+
+				} */
+			.info-text p{
+				font-size: 12px;
+			}
+			ion-icon {
+				font-size: 24px;
+			  }
+			  .naming{ color: white; font-size: 11px; }
+			  .main-area .social-btn{ position: relative; top: 20%; }
+
+			  .image-logo{
+				position: relative;
+				padding-top:40%;
+			}
 	
 }
 
 /* Screens Resolution : 359px
 -------------------------------------------------------------------------- */
-@media only screen and (max-width: 359px) {
+@media only screen and (max-width: 365px) {
 	.load-img {
 		display: none;
 		  
@@ -401,7 +423,7 @@
 		font-size: 35px;
 	}
 	.info-text{
-		margin-top: 3.5rem;
+		padding-top: 2.5rem;
 	}
 	.info-text p{
 		font-size: 12px;
@@ -410,7 +432,12 @@
 		font-size: 24px;
 	  }
 	  .naming{ color: white; font-size: 11px; }
-	  .main-area .social-btn{ position: relative; top: 40%; }
+	  .main-area .social-btn{ position: relative; top: 30%; }
+
+	  .image-logo{
+		position: relative;
+		padding-top:40%;
+	}
 	
 }
 
@@ -456,7 +483,12 @@
 	  }
 	.naming{ color: white; font-size: 10px; }
 
-	.main-area .social-btn{ position: relative; top: 45%; }
+	.main-area .social-btn{ position: relative; top: 30%; }
+
+	.image-logo{
+		position: relative;
+		padding-top:40%;
+	}
 
 }
 
