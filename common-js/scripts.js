@@ -272,41 +272,31 @@ function initMap() {
 }
 
 
-document.addEventListener("DOMContentLoaded", function(event) {
-	var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
-	if (mobile) {
-	 var $ = document; // shortcut
-	 var cssId = 'responsive';  
+document.addEventListener("DOMContentLoaded", function (event) {
+  var mobile =
+    /iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(
+      navigator.userAgent.toLowerCase()
+    );
 	
-	 if (!$.getElementById(cssId))
-	  {
-		document.getElementById("web").style.display = "none"
-		document.getElementById("mob").style.display = "block";
-	   };
-	 }
-	 else{
-	  var $ = document; // shortcut
-	  var cssId = 'style'; 
-	  if (!$.getElementById(cssId))
-	   {
-		  document.getElementById("mob").style.display = "none";
-		  document.getElementById("web").style.display = "block";
-	   };
-	 } 
+  if (mobile) {
+    var $ = document; // shortcut
+    var cssId = "responsive";
+
+    if (!$.getElementById(cssId)) {
+      document.getElementById("web").style.display = "none";
+      document.getElementById("mob").style.display = "block";
+      document.getElementById("mob").play();
+    }
+  } else {
+    var $ = document; // shortcut
+    var cssId = "style";
+    if (!$.getElementById(cssId)) {
+      document.getElementById("mob").style.display = "none";
+      document.getElementById("web").style.display = "block";
+    }
+  }
 });
 
 
-$('body').on('click touchstart', function () {
-	var promise = $('#videoElement').play();
-
-if (promise !== undefined) {
-  promise.then(_ => {
-   // Autoplay was successful
-  }).catch(error => {
-   $('#videoElement').remove()
- });
-
-}
-});
 
 
