@@ -297,10 +297,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 
 $('body').on('click touchstart', function () {
-	const videoElement = document.getElementById('videoElement');
-	if (!videoElement.playing) {
-		videoElement.play();
-	}
+	var promise = $('#videoElement').play();
+
+if (promise !== undefined) {
+  promise.then(_ => {
+   // Autoplay was successful
+  }).catch(error => {
+   $('#videoElement').remove()
+ });
+
+}
 });
 
 
