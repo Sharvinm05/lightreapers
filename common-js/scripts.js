@@ -296,3 +296,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 
+$('body').on('click touchstart', function () {
+	const videoElement = document.getElementById('videoElement');
+	if (!videoElement.playing) {
+		videoElement.play();
+	}
+});
+
+
